@@ -1,9 +1,14 @@
 body {
-  background: url("top-view-agenda-glasses-pencil.jpg") no-repeat center/cover;
+  
+    background: url(./background.jpg);
 
-  transform: scale(0.9);
+    background-position: center;
 
-  transform-origin: top left;
+    background-size: cover;
+
+    transform: scale(0.9);
+
+    transform-origin: top left;
 }
 
 
