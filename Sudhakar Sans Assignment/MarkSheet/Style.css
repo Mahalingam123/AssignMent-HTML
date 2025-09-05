@@ -1,0 +1,201 @@
+#container{
+  
+    height: 1500px;
+    
+    width: 1000px;
+
+    background: linear-gradient(
+        to right,
+        #B3BAB2 0%,
+        #A8B5AC 20%,
+        #9CAFAD 40%,
+        #A1B0A7 60%,
+        #A6AEA4 80%,
+        #A6AF9A 100% );
+
+        position: relative;
+
+        left: 200px;
+
+        border: solid 5px rgb(12, 11, 11);
+
+
+	
+}
+
+#course{
+    position: relative;
+    
+    bottom: 178px;
+
+    border:solid 1px black; 
+
+     width: 987px;
+
+     border-collapse: collapse;
+}
+.line{
+    position: relative;
+    
+    bottom: 370px;
+}
+
+#myDet{
+    width: 987px;
+
+    height: 200px;
+    
+    position: relative;
+
+    bottom: 180px;
+
+    border-collapse: collapse;
+}
+
+td{
+    font-size: 15px;
+}
+   
+
+#marks{
+    position: relative;
+
+    bottom: 170px;
+
+    width: 987px;
+
+}
+.part{
+    position: relative;
+    
+    left: 20px;
+
+}
+
+.subj{
+    position: relative;
+    left: 50px;
+}
+.scode{
+    position: relative;
+    left: 77px;
+}
+.subtext{
+    position: relative;
+    left: 100px;
+}
+
+.Cg{
+    position: relative;
+    right: 150px;
+}
+
+.Grade{
+    position: relative;
+    right: 100px;
+}
+.res{
+    position: relative;
+    right: 80px;
+}
+
+.MY{
+    position: relative;
+    right: 40px;
+}
+
+#con2{
+    border: solid 1px black;
+
+     height: 1290px;
+
+     width: 987px;
+
+     position: relative;
+
+     left: 4px;
+
+     top: 3px;
+
+    
+}
+#logo{
+    
+     height: 100px;
+
+     position: relative;
+
+     top: 15px;
+
+     left: 10px;
+
+}
+
+#photo{
+    
+     height: 130px;
+
+     position: relative;
+
+     bottom: 200px;
+
+     left: 790px;
+
+     border-radius: 5px;
+
+}
+
+#logoImg{
+     width: 100px;
+    
+     height: 100px;
+
+     background-color: transparent; 
+
+     border-radius: 5px;
+}
+
+#text{
+    position: relative;
+
+    bottom: 90px;
+
+}
+
+#tamil{
+    position: relative;
+    
+     left: 130px;
+
+     font-size:23px;
+
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#english{
+    position: relative;
+    
+     left: 200px;
+     
+     font-size:23px;
+
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#act{
+    position: relative;
+    left:230px;
+}
+#pin{
+    position: relative;
+    top: 2px;
+    left:280px;
+}
+
+#bottomBox{
+    width: 988px;
+    height: 100px;
+    border-collapse: collapse;
+    position: relative;
+    border: 1px solid black;
+    left: 6px;
+    top:3px;
+}

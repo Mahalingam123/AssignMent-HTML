@@ -1,0 +1,233 @@
+body {
+  background: url("top-view-agenda-glasses-pencil.jpg") no-repeat center/cover;
+
+  transform: scale(0.9);
+
+  transform-origin: top left;
+}
+
+
+input[type=number] ::-webkit-outer-spin-button,::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+
+
+
+#total{
+ 
+    width: 900px;
+
+    height: 1400px;
+
+    border:none;
+
+    left: 10px;
+
+    position: relative;
+
+    border-radius: 20px;
+
+    overflow: none;
+
+    transition: 0.5s;
+
+  
+}
+
+
+
+#total2{
+ 
+    width: 700px;
+
+    height: 700px;
+   
+    position: relative;
+
+    left: 750px;
+
+    bottom: 650px;
+
+}
+
+
+
+.box{
+     position: relative;
+   
+     top: 53px;
+
+     left: 165px;
+
+     width: 300px;
+
+     height: 30px;
+    
+     margin-bottom: 20px;
+     
+     border-radius: 3px;
+
+      margin-bottom: 30px;
+
+     border: none;
+    
+      box-shadow: 1px 3px 5px rgb(216, 215, 213);
+
+     transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.box:hover{
+    transform: scale(1.04);
+}
+
+
+
+
+.box1{
+     position: relative;
+   
+     top: 50px;
+
+     left: 95px;
+
+     width: 300px;
+
+     height: 35px;
+    
+     margin-bottom: 30px;
+     
+     border-radius: 3px;
+
+     border: 1px black;
+    
+      box-shadow: 1px 3px 5px rgb(216, 215, 213);
+
+     transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.box1:hover{
+    transform: scale(1.04);
+}
+
+.Text{
+    font-size: large;
+   
+    font-size: 20px;
+
+     margin-bottom: 20px;
+
+     font-family: Georgia, 'Times New Roman', Times, serif;
+
+    position: relative;
+
+    left: 85px;
+    
+    top: 34px;
+
+    color: rgb(255, 255, 255);
+    
+}
+
+.radio{
+
+    margin-top: 30px;
+
+    position: relative;
+
+    left: 300px;
+
+    font-size: 20px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    color: blanchedalmond;
+}
+
+#subbox{
+    position: relative;
+    bottom:650px ;
+
+    left: 590px;
+
+}
+
+input[type="file"]{
+
+    border-radius: 10px;
+
+    background-color: antiquewhite;
+
+}
+
+input[type="file"]::file-selector-button{
+
+    border-radius: 10px;
+
+    background-color: rgb(42, 179, 24);
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    font-weight: bold;
+   
+    padding: 2px;
+
+    border: none;
+
+    box-shadow: 1px 2px 1px;
+
+}
+
+
+#sub{
+    background-color: rgb(0, 224, 75);
+
+     width: 300px;
+
+     height: 35px;
+    
+     position: relative;
+
+     left: -20px;
+
+     top: 20px;
+
+      border-radius: 5px;
+
+     border: none;
+    
+      box-shadow: 1px 3px 5px rgb(216, 215, 213);
+
+     transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+#sub:hover{
+   
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+#head{
+    position: relative;
+
+    left: 550px;
+
+    font-size: 40px;
+
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+   color: aliceblue;
+
+   transition: transform 20000ms;
+}
+
+
+
+#head:hover{
+    transform: rotate(180deg) scale(1.5);
+}

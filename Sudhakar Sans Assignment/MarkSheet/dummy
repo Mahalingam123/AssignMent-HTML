@@ -1,0 +1,30 @@
+ <table class="line">
+                  <tr>
+
+                    <td> 
+                    
+                    <div  style="border-left:2px solid black; height:895px; position: relative; left: 70px;""></div>
+                    </td>
+                     <td>
+                    <div  style="border-left:2px solid black; height:895px; position: relative; left: 150px;"""></div>
+                    </td>
+                     <td> 
+                    <div   style="border-left:2px solid black; height:898px;position: relative; left: 220px;""></div>
+                    </td>
+                     <td>
+                    <div   style="border-left:2px solid black; height:895px; position: relative; left: 680px;""></div>
+                    </td>
+                     <td>
+                    <div   style="border-left:2px solid black; height:895px;position: relative; left: 740px;""></div>
+                    </td>
+                     <td>
+                    <div  style="border-left:2px solid black; height:895px; position: relative; left: 810px;""></div>
+                    </td>
+                     <td>
+                    <div   style="border-left:2px solid black; height:895px;position: relative; left: 850px;"></div>
+                    </td>
+           
+                  </tr>  
+            </table>
+
+           

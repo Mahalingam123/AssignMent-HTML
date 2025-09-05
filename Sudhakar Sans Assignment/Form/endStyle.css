@@ -1,0 +1,56 @@
+
+body{
+
+background-image: url("./pad.jpg");
+
+background-size: cover;
+}
+
+#div{
+      position: relative;
+
+      height: 300px;
+
+      width: 500px;
+
+      left: 500px;
+
+      top: 30px;
+
+      align-content: center;
+
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+      border: none;
+
+      background-image: -webkit-image-set(url("./pad.jpg"));
+
+      backdrop-filter: blur(20px);
+
+      background-size: cover;
+    
+      box-shadow: 1px 3px 5px rgb(10, 10, 9);
+
+      border-radius: 20px;
+
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#div:hover{
+    transform: scale(1.04);
+}
+
+h1,h4{
+    position: relative;
+
+    left: 135px;
+
+    color: rgb(2, 2, 2);
+
+}
+
+img{
+    position: relative;
+
+    left: 182px;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./FormStyle.css">
+</head>
+<body>
+    <div id="Form">
+    <form id="form" action="./end.html">
+    <div id="total">
+        
+        <h1 id="head"> Application Form</h1>
+
+        <div>
+            <table>
+                <tr>
+                    <td>
+                       <label for="email" class="Text"> Email <font style="color: red;"> *</font> </label> 
+                    </td>
+                               
+                    <td>
+                         <input  id="email" class="box" type="email"> <br>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td>
+                          <label for="phone" class="Text"> Phone <font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                        <input class="box" id="phone" type="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                          <label for="name" class="Text"> Name <font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                        <input class="box" id="name" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                          <label for="gender" class="Text"> Gender <font style="color: red;"> *</font> </label>
+                    </td>
+                    
+                    <tr>
+                        <td>
+
+                        <input class="radio" id="genderM" name="gen"  type="radio">
+
+                         <text class="radio">  Male</text>
+
+                        </td>
+                    </tr>
+                     
+                   <tr>
+                       <td>
+                       
+                          <input class="radio" id="genderF" name="gen" type="radio"> 
+
+                          <text class="radio"> Female</text>
+                    
+                        </td>
+                   </tr>
+                   
+                </tr>
+
+                <tr>
+                      <td>
+                          <label for="fname" class="Text"> Father name <font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                        <input class="box" id="fname" type="text">
+                    </td>
+                </tr>
+                <tr>
+                      <td>
+                          <label for="mname" class="Text"> Mother name <font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                        <input class="box" id="mname" type="text">
+                    </td>
+                </tr>
+                <tr>
+                      <td>
+                          <label for="dob" class="Text"> DOB<font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                        <input class="box" id="dob" type="date">
+                    </td>
+                </tr>
+                <tr>
+                      <td>
+                          <label for="deg" class="Text"> Degree<font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                       <select class="box" name="" id="deg">
+                        <option value="">
+                            Bachelor of science
+                        </option>
+                        <option value="">
+                            Bachelor of Arts
+                        </option>
+                        <option value="">
+                            Bachelor of Engineering
+                        </option>
+                       </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                         <label for="res" class="Text">Resume <font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                         <input class="box" id="res" type="file">
+                    </td>
+
+                </tr>
+            </table>
+           
+ </div>
+    <div id="total2">
+       
+        <div>
+            <table>
+               
+                <tr>
+                    <td>
+                       <label for="add" class="Text"> Address <font style="color: red;"> *</font> </label> 
+                    </td>
+                               
+                    <td>
+                         <input id="add" class="box1" type="text"> <br>
+                    </td>
+                </tr>
+               
+                <tr>
+                    <td>
+                          <label for="l1" class="Text"> Line 1 </label>
+                    </td>
+                    <td>
+                        <input class="box1" id="l1" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                          <label for="l2" class="Text"> Line 2</font> </label>
+                    </td>
+                    <td>
+                        <input  class="box1" id="l2" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                          <label for="ahar" class="Text"> Aadhar No <font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                        <input class="box1" id="ahar" type="number">
+                    </td>
+                   
+                </tr>
+
+                <tr>
+                      <td>
+                          <label for="pan" class="Text"> Pan <font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                        <input class="box1" id="pan" type="text">
+                    </td>
+                </tr>
+                <tr>
+                      <td>
+                          <label for="acc" class="Text"> Account Number <font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                        <input class="box1" id="acc" type="number">
+                    </td>
+                </tr>
+                <tr>
+                      <td>
+                          <label for="ifc" class="Text"> IFSC CODE<font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                        <input class="box1" id="ifc" type="text">
+                    </td>
+                </tr>
+                <tr>
+                      <td>
+                          <label for="emn" class="Text"> Emergency Contact Number<font style="color: red;"> *</font> </label>
+                    </td>
+                    
+                    <td>
+                           <input class="box1" id="emn" type="number">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                         <label for="photo" class="Text">Photo <font style="color: red;"> *</font> </label>
+                    </td>
+                    <td>
+                         <input class="box1" id="photo" type="file">
+                    </td>
+
+                </tr>
+            </table>
+
+        </div>       
+   
+    </div>
+     <div id="subbox">
+
+        <input id="sub" type="submit">
+
+    </div>
+            
+
+        </div>
+    </form>
+    </div>
+
+    <script src="./Script.js"</script></script>
+</body>
+
+</html>
